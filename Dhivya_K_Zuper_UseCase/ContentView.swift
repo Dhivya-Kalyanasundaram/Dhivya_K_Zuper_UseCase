@@ -2,20 +2,21 @@
 //  ContentView.swift
 //  Dhivya_K_Zuper_UseCase
 //
-//  Created by Kalyanasundaram, Dhivya (Cognizant) on 12/07/25.
+//  Created by Kalyanasundaram, Dhivya on 12/07/25.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var searchText: String = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationStack {
+            ServiceListView(services: SampleData.generateServices())
+                .navigationTitle("Services")
+                .navigationBarTitleDisplayMode(.inline)
+        }.searchable(text: $searchText)
     }
 }
 

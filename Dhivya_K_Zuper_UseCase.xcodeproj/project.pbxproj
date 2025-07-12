@@ -6,8 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		92BA3E192E2226D7004CA5C7 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA3E182E2226D7004CA5C7 /* SampleData.swift */; };
+		92BA3E1B2E22271D004CA5C7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA3E1A2E22271D004CA5C7 /* Model.swift */; };
+		92BA3E1D2E2227AC004CA5C7 /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA3E1C2E2227AC004CA5C7 /* ServicesListView.swift */; };
+		92BA3E1F2E2227BA004CA5C7 /* ServicesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA3E1E2E2227BA004CA5C7 /* ServicesDetailView.swift */; };
+		92BA3E332E222B2C004CA5C7 /* ServicesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA3E322E222B2C004CA5C7 /* ServicesCardView.swift */; };
+		92BA3E352E224D72004CA5C7 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA3E342E224D72004CA5C7 /* ServiceViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		92BA3E052E222554004CA5C7 /* Dhivya_K_Zuper_UseCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dhivya_K_Zuper_UseCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BA3E182E2226D7004CA5C7 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		92BA3E1A2E22271D004CA5C7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		92BA3E1C2E2227AC004CA5C7 /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListView.swift; sourceTree = "<group>"; };
+		92BA3E1E2E2227BA004CA5C7 /* ServicesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesDetailView.swift; sourceTree = "<group>"; };
+		92BA3E322E222B2C004CA5C7 /* ServicesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCardView.swift; sourceTree = "<group>"; };
+		92BA3E342E224D72004CA5C7 /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +47,12 @@
 		92BA3DFC2E222554004CA5C7 = {
 			isa = PBXGroup;
 			children = (
+				92BA3E342E224D72004CA5C7 /* ServiceViewModel.swift */,
+				92BA3E322E222B2C004CA5C7 /* ServicesCardView.swift */,
+				92BA3E1C2E2227AC004CA5C7 /* ServicesListView.swift */,
+				92BA3E1E2E2227BA004CA5C7 /* ServicesDetailView.swift */,
+				92BA3E1A2E22271D004CA5C7 /* Model.swift */,
+				92BA3E182E2226D7004CA5C7 /* SampleData.swift */,
 				92BA3E072E222554004CA5C7 /* Dhivya_K_Zuper_UseCase */,
 				92BA3E062E222554004CA5C7 /* Products */,
 			);
@@ -119,6 +140,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92BA3E1D2E2227AC004CA5C7 /* ServicesListView.swift in Sources */,
+				92BA3E192E2226D7004CA5C7 /* SampleData.swift in Sources */,
+				92BA3E1B2E22271D004CA5C7 /* Model.swift in Sources */,
+				92BA3E1F2E2227BA004CA5C7 /* ServicesDetailView.swift in Sources */,
+				92BA3E352E224D72004CA5C7 /* ServiceViewModel.swift in Sources */,
+				92BA3E332E222B2C004CA5C7 /* ServicesCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
